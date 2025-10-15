@@ -1,4 +1,4 @@
-"Voltage","Height","Soil Type","Mine Type"
+"Voltage","Height (cm)","Soil Type","Mine Type"
 0.338156758,0,"Dry and Sandy","NA"
 0.320241334,0.181818182,"Dry and Sandy","NA"
 0.28700875,0.272727273,"Dry and Sandy","NA"
@@ -337,4 +337,5 @@
 0.353473918,0.454545455,"Humid and Limy","M14 Anti-Personnel"
 0.36253735,0.727272727,"Humid and Limy","M14 Anti-Personnel"
 0.314199046,1,"Humid and Limy","M14 Anti-Personnel"
+
 
