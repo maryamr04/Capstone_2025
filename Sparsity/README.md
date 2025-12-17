@@ -12,3 +12,6 @@ To access the attention matrices for the baseline model and the four different m
 strategies, input `folder_path = "YOUR_FOLDER_PATH"` into the code cells where appropriate to 
 ensure they are incorporated properly. The respective folders for the mitigation strategies
 can be found inside of the **RAG, CAD, Knowledge Graph, and ToT** sections of our repository.
+
+The last three code cells show individual analyses of specific matrices. Once again, changing the
+folder paths and updating the `attn_####` file number.
