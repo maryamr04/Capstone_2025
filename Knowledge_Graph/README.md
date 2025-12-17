@@ -26,7 +26,42 @@ Step by step for uploading documents into Graph Builder:
 4. Go to the upload tab in the far left hand of the screen and choose which documents to generate a graph for (click the **Generate Graph** button in the bottom right once you are finished uploading)
 6. Once the graphs are generated, you will then be able to click the **Preview Graph** button to see what the builder has generated
 
-7. ## Running the Code
+## Running the Code Environment
 
-8. The code was written in a Google Colab environment with the appropriate install and import statements used throughout the notebook. Running these cells should get you the functionality you need.
+The code was written in a Google Colab environment with the appropriate install and import statements used throughout the notebook. Running these cells should get you the functionality you need. You will also need to generate your own HuggingFace Token through their website in the error the code will give you.
+
+**Tested in Google Colab with:**
+
+PyTorch 2.8.0 + CUDA 12.6
+
+Transformers 4.57.1
+
+NumPy 2.0.2
+
+LangChain 0.3.x
+
+Pyvis
+
+Networkx
+
+**Usage (Google Colab):**
+
+Enable GPU: Runtime → Change runtime type → GPU
+
+Add Hugging Face token: Runtime → Secrets → HUGGINGFACE_TOKEN
+
+Mount Google Drive (handled in notebook)
+
+Be sure to upload the Lane Mine data
+
+Run graph generation and attention extraction
+
+## Notes & Limitations
+Attention extraction significantly increases runtime (≈10–100×)
+
+Attention values are model internal proxies, not ground truth
+
+You can find the Attention Matrices in folders **kg_1** through **kg_4**
+
+Results depend on model version, decoding settings, and prompt format
 
